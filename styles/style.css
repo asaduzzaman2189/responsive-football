@@ -1,6 +1,131 @@
-h1{
-    color: red;
+/* ---------------------------
+fonts  
+------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
+/* ----------------------------
+common styles header 
+------------------------------- */
+.header-section{
+    background-color: #2D25A0;
+    height: 591px;
 }
-h2{
-    color: green;
+.header-info{
+    padding: 67px 140px 86px 140px;
+    display: flex;
+    justify-content: space-between;
 }
+.header-title h2{
+    font-size: 50px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+button{
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    border: none;
+    padding: 11px 25px;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.fas.fa-arrow-right{
+    margin-left: 5px;
+}
+.banner-section{
+    width: 556.01px;
+    height: 438px;
+}
+.banner-section img{
+    width: 100%;
+}
+.banner-section:hover img{
+    transform: scale(1.3) skew(
+-5deg
+);
+    transition: transform 2s ease-in-out;
+}
+/* ----------------------------
+player information
+------------------------------- */
+main{
+    background-color: #FFFFFF;
+}
+.player-info{
+    margin-top: 70px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.players{
+    padding: 0px 180px 70px 180px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+}
+.player{
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-thumbnail img{
+    width: 100%;
+}
+.player-details h2{
+    margin-top: 16px;
+    font-size: 28px;
+    color: #18191F;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.player-details p{
+    font-size: 16px;
+    color: #6C6C6C;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ----------------------------
+footer information
+------------------------------- */
+footer{
+    margin-bottom: 70px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo img{
+    padding-right: 100px;
+}
+.footer-logo p{
+font-size: 73px;
+font-weight: 400;
+color: #10437A;
+font-family: 'Niconne', cursive;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-icon{
+    font-size: 32px;
+    color: #969BAB;
+    padding-right: 14px;
+    text-decoration: none;
+}
+.copyright-content{
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
